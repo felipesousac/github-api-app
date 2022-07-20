@@ -1,13 +1,15 @@
-import './App.css'
+import ResetCSS from './components/global/resetCss'
 import Layout from './components/Layout'
+import Profile from './components/Profile'
+import Repositories from './components/Repositories'
 
 function App() {
   return (
     <main>
+      <ResetCSS />
       <Layout>
-        <div>User</div>
-        <div>Repositories</div>
-        <div>Starreds</div>
+        <Profile />
+        <Repositories />
       </Layout>
     </main>
   )
